@@ -1,0 +1,48 @@
+
+body{
+    margin: 0%;
+    padding: 0;
+    border: 0;
+    line-height: 1;
+}
+
+ol,ul{
+    list-style: none;
+}
+.clearfix:after{content: ''; clear: both; display: block;}
+
+.progress-bar{
+    position: relative;
+    width: 960px;
+    height: 13px;
+    margin: 3em;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.progress-bar .bar{
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 30px;
+    background: rgb(166, 166, 170);
+}
+
+@keyframes width1{
+    to{width: 30%;}
+}
+
+.progress-bar .rate{
+    position: absolute;
+    top: 0;
+    right: 15px;
+    bottom: 0;
+    line-height: 30px;
+    font-size: 1.2em;
+    background-color: gainsboro;
+    color: rgb(17, 48, 48);
+}
+.content{
+    height: 800px;
+    font-size: 1em;
+}
