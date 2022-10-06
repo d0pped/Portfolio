@@ -1,9 +1,15 @@
-
+header{
+    max-width: 500px;
+    float: right;
+    background: rgb(131, 131, 131);
+}
 body{
+    background: url(../img/layerimg.png) no-repeat;
     margin: 0%;
     padding: 0;
     border: 0;
     line-height: 1;
+    max-width: 1980px;
 }
 
 ol,ul{
@@ -43,6 +49,6 @@ ol,ul{
     color: rgb(17, 48, 48);
 }
 .content{
-    height: 800px;
+    height: 1080px;
     font-size: 1em;
 }
